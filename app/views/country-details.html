@@ -1,0 +1,42 @@
+<!-- Page Content -->
+<div class="container">
+    <!-- Page Header -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">{{country.title}} /
+                <small>{{trip.title}}</small> / <small>{{currentDay.title}}</small>
+            </h1>
+        </div>
+    </div>
+    <div class="row">        
+        <div class="col-md-6 planArea col-centered">
+            <div class="row actionItem" ng-repeat="action in actions">
+                <div class="col-xs-0 pull-right actionIcon">
+                    <span class="large glyphicon glyphicon-map-marker"></span>
+                </div>
+                <!-- Give it the same id as the map marker so it will change on user click -->
+                <div id="{{action.mapMarkerIndex}}" class="col-xs-11 pull-right actionItem">
+                    {{action.snippet}}
+                    <span ng-show="action.location != ''">{{action.location.name}}, {{action.location.gps}}</span>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <!-- flghtArrive,flghtDepart,shortDrive,mediumDrive,longDrive,train
+        restaurant,hotel,carRental,bikeRental,searchFlights,searchCarRental,searchHotels
+        normal,transport,recommend,info,sleep,food,attraction,rental,offerSearch
+        center="Paseo de los puentes, 2, 50018 Zaragoza" options="marker.options" click="selectMarker($index)"-->
+        <div class="col-md-6" ng-controller="mapCtrl">
+            <!-- <map zoom="14" center="[43.6650000, -79.4103000]"></map> -->
+            <ui-gmap-google-map center="map.center" control="map.googleMap" zoom="map.zoom" options="map.options" draggable="true"
+            ng-model="map">
+                <!-- <div ng-repeat="marker in map.mapMarkers track by $index">
+                    <marker coords="marker.coords" options="marker.options" click="selectMarker($index)" idkey="marker.id">
+                    </marker>
+                </div> -->
+            </ui-gmap-google-map>
+        </div>
+    </div>
+    <hr>
+</div>
+<!-- /.container -->

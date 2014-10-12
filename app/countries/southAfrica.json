@@ -1,0 +1,127 @@
+{
+    "id": "southAfrica",
+    "title": "טיולים בדרום אפריקה",
+    "shortSentence": "חיות פרא, פעילויות אקסטרים והנאה קולינרית",
+    "location": {
+        "name": "south africa",
+        "gps": "south africa"        
+    },
+    "images": [{
+        "src": "img/places/a.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "img/places/b.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "img/places/c.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "img/places/d.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "img/places/e.jpg",
+        "title": "Title 5"
+    }],
+    "trips": [{
+        "title": "21 ימים מדהימים",
+        "dayPlans": {
+            "0": {
+                "title": "היום הראשון",
+                "actions": {
+                    "0": {
+                        "name": "nav",
+                        "type": "shortDrive",
+                        "snippet": "ניסע לכיוון היעד הראשון שלנו בטיול: ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר",
+                        "location": {
+                            "name": "cape town",
+                            "gps": "cape town, south africa",
+                            "link": "booking.com/hiberushotel"                            
+                        },
+                        "offerSearch": [{
+                            "icon": "http://elal.com/icon.png",
+                            "url": "http://el-al.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://iberia.com/icon.png",
+                            "url": "http://iberia.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://kayak.com/icon.png",
+                            "url": "http://kayak.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://booking.com/icon.png",
+                            "url": "http://booking.com/query?=hotelsinzaragoza"
+                        }]
+                    },
+                    "1": {
+                        "name": "nav",
+                        "type": "shortDrive",
+                        "snippet": "ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר",
+                        "location": {
+                            "name": "mossel bay",
+                            "gps": "mossel bay, south africa",
+                            "link": "booking.com/hiberushotel"                                           
+                        },
+                        "offerSearch": [{
+                            "icon": "http://elal.com/icon.png",
+                            "url": "http://el-al.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://iberia.com/icon.png",
+                            "url": "http://iberia.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://kayak.com/icon.png",
+                            "url": "http://kayak.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://booking.com/icon.png",
+                            "url": "http://booking.com/query?=hotelsinzaragoza"
+                        }]
+                    },
+                    "2": {
+                        "name": "nav",
+                        "type": "shortDrive",
+                        "snippet": "ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר",
+                        "location": {
+                            "name": "plettenberg bay",
+                            "gps": "plettenberg bay, south africa",
+                            "link": "booking.com/hiberushotel"                            
+                        },
+                        "offerSearch": [{
+                            "icon": "http://elal.com/icon.png",
+                            "url": "http://el-al.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://iberia.com/icon.png",
+                            "url": "http://iberia.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://kayak.com/icon.png",
+                            "url": "http://kayak.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://booking.com/icon.png",
+                            "url": "http://booking.com/query?=hotelsinzaragoza"
+                        }]
+                    },
+                    "3": {
+                        "name": "nav",
+                        "type": "shortDrive",
+                        "snippet": "ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר ניסע למסעדה מומלצת בעיר",
+                        "location": {
+                            "name": "port elizabeth",
+                            "gps": "port elizabeth, south africa",
+                            "link": "booking.com/hiberushotel"                            
+                        },
+                        "offerSearch": [{
+                            "icon": "http://elal.com/icon.png",
+                            "url": "http://el-al.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://iberia.com/icon.png",
+                            "url": "http://iberia.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://kayak.com/icon.png",
+                            "url": "http://kayak.com/query?=flightstomadrid"
+                        }, {
+                            "icon": "http://booking.com/icon.png",
+                            "url": "http://booking.com/query?=hotelsinzaragoza"
+                        }]
+                    }
+                }
+            }
+        }
+    }]
+}

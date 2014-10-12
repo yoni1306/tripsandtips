@@ -1,0 +1,32 @@
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Header -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">הטיולים שלנו
+                <small>לזוגות עד משפחות!</small>
+            </h1>
+        </div>
+    </div>
+    <!-- /.row -->
+    
+    <!-- Cool scrollable spy navigation -->
+    <div data-spy="scroll" class="spscroll" >
+        <!-- Projects Row -->
+        <div class="row" ng-repeat="countries_row in countries | partition:3">
+            <div class="col-md-4" ng-repeat="country in countries_row">
+                <a href="#/{{country.id}}">
+                    <slider images={{country.images}}/>
+                    <h2>
+                        {{country.title}}
+                    </h2>
+                    <p>{{country.snippet}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+<!-- /.container -->

@@ -1,0 +1,145 @@
+[{
+    "id": "southAfrica",
+    "title": "דרום אפריקה",
+    "location": {
+        "name": "south africa",
+        "gps": "south africa"
+    },
+    "images": [{
+        "src": "images/places/a.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/b.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/c.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/d.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/e.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "צאו למסע בלתי נשכח בדרום אפריקה המדהימה.\r\nמתאים גם לזוגות וגם משפחות!"
+}, {
+    "id": "NewZealand",
+    "title": "ניו זילנד",
+    "images": [{
+        "src": "images/places/b.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/c.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/d.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/e.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/a.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "טוסו לניו זילנד המדהימה ביופיה.\r\n\r\nמתאים בעיקר לזוגות או למוצ'ילרים."
+}, {
+    "id": "NorthItaly",
+    "title": "צפון איטליה",
+    "images": [{
+        "src": "images/places/c.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/d.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/e.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/a.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/b.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "צפון איטליה כמו שמעולם לא ראיתם.\r\n\r\nטיול קלאסי למשפחות!"
+}, {
+    "id": "Japan",
+    "title": "יפן",
+    "images": [{
+        "src": "images/places/d.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/e.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/a.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/b.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/c.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "טיול מקדשים מרהיב ביפן.\r\n\r\nטיול שמתאים למשפחות."
+}, {
+    "id": "WestCoastUsa",
+    "title": "ארצות הברית - החוף המערבי",
+    "images": [{
+        "src": "images/places/e.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/a.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/b.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/c.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/d.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "טיול פשוט מגניב בחוף המערבי הלוהט של ארצות הברית.\r\n\r\nטיול מדהים למשפחות ולצעירים!"
+}, {
+    "id": "SouthAmerica",
+    "title": "דרום אמריקה",
+    "images": [{
+        "src": "images/places/a.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/b.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/c.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/d.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/e.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "בואו לחרוש את דרום אמריקה המדהימה ביופיה.\r\n\r\nטיול למוצ'ילרים בלבד!"
+}, {
+    "id": "SouthAmerica",
+    "title": "דרום אמריקה",
+    "images": [{
+        "src": "images/places/a.jpg",
+        "title": "Title 1"
+    }, {
+        "src": "images/places/b.jpg",
+        "title": "Title 2"
+    }, {
+        "src": "images/places/c.jpg",
+        "title": "Title 3"
+    }, {
+        "src": "images/places/d.jpg",
+        "title": "Title 4"
+    }, {
+        "src": "images/places/e.jpg",
+        "title": "Title 5"
+    }],
+    "snippet": "בואו לחרוש את דרום אמריקה המדהימה ביופיה.\r\n\r\nטיול למוצ'ילרים בלבד!"
+}]

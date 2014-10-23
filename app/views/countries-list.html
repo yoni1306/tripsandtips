@@ -17,7 +17,7 @@
         <!-- Projects Row -->
         <div class="row" ng-repeat="countries_row in countries | partition:3">
             <div class="col-md-4" ng-repeat="country in countries_row">
-                <a href="#/{{country.id}}">
+                <a href="#/country/{{country.id}}">
                     <slider images={{country.images}}/>
                     <h2>
                         {{country.title}}

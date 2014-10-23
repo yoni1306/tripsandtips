@@ -61,7 +61,7 @@ tripsandtipsApp.config(['$routeProvider',
         templateUrl: 'views/countries-list.html',
         controller: 'countriesListCtrl'
       }).
-      when('/:countryId', {
+      when('/country/:countryId', {
         templateUrl: 'views/country-details.html',
         controller: 'countryDetailsCtrl'
       }).

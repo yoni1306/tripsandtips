@@ -107,11 +107,22 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/initializer.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="scripts/controllers.js"></script>
+    
+
+    <!-- Load our services -->
+    <script src="scripts/services/tntCountryDataService.js"></script>
+    <script src="scripts/services/tntEventEmitter.js"></script>
+    <script src="scripts/services/tntMapService.js"></script>
+    <!-- Load our controllers -->
+    <script src="scripts/controllers/countriesListController.js"></script>
+    <script src="scripts/controllers/countryDetailsController.js"></script>
+    <script src="scripts/controllers/mapController.js"></script>
+
     <script src="scripts/directives.js"></script>
     <script src="scripts/filters.js"></script>
-    <script src="scripts/services.js"></script>
+    
     <!-- endbuild -->
   </body>
 </html>

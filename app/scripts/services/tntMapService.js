@@ -1,43 +1,6 @@
 'use strict';
 
-/* Services */
-
-var tntServices = angular.module('tntServices', []);
-
-tntServices.factory('CountryDataService', ['$resource',
-    function($resource) {
-        var activeCountryId = null;
-        var countryResource = $resource('jsonData/:countryId.json', {}, {
-            query: {
-                method: 'GET',
-                params: {
-                    countryId: 'countries'
-                },
-                isArray: true
-            }
-        });
-        var functions = {
-            getCountryData: function(countryId) {
-                if (countryId === undefined) {
-                    countryId = activeCountryId;
-                } else {
-                    activeCountryId = countryId;
-                }
-
-                return countryResource.get({
-                    countryId: countryId
-                }).$promise;
-            },
-            getAllCountries: function() {
-                return countryResource.query();
-            }
-        };
-        return functions;
-    }
-]);
-
-
-tntServices.factory('tntMapService', ['$rootScope', '$q', '$timeout', 'CountryDataService',
+tntServices.factory('tntMapService', ['$rootScope', '$q', '$timeout', 'tntCountryDataService',
     function($rootScope, $q, $timeout, CountryDataService) {
         var FIRST = '0';
         var geocoder = null;
@@ -161,17 +124,6 @@ tntServices.factory('tntMapService', ['$rootScope', '$q', '$timeout', 'CountryDa
                 }, 10);
 
                 return deferred.promise;
-            }
-        };
-        return functions;
-    }
-]);
-
-tntServices.factory('DataUiBinder', ['$rootScope',
-    function($rootScope) {
-        var functions = {
-            selectMarker: function(markerId) {
-                $rootScope.$broadcast('markerSelected', markerId);
             }
         };
         return functions;

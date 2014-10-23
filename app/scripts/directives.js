@@ -1,7 +1,7 @@
 'use strict';
 
 /* Directives */
-var tntDirectives = angular.module('tntDirectives', ['ngAnimate']);
+var tntDirectives = angular.module('tntDirectives', []);
 
 tntDirectives.directive('slider', function ($timeout) {
   return {

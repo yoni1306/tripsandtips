@@ -7,7 +7,7 @@ var tntServices = angular.module('tntServices', []);
 tntServices.factory('CountryDataService', ['$resource',
     function($resource) {
         var activeCountryId = null;
-        var countryResource = $resource('countries/:countryId.json', {}, {
+        var countryResource = $resource('jsonData/:countryId.json', {}, {
             query: {
                 method: 'GET',
                 params: {
@@ -100,10 +100,14 @@ tntServices.factory('tntMapService', ['$rootScope', '$q', '$timeout', 'CountryDa
 
                 $q.all(promises).then(function() {
                     console.log('finished fixing all locations!', dailyActions);                    
-                    googleMap.setCenter(country.location.LatLng);
+                    functions.setMapCenter(country.location.LatLng);
                     functions.prepareMapMarkers();
                     $rootScope.$broadcast('mapServiceIsReady');
                 });
+            },
+            setMapCenter: function(mapCenter){
+                googleMap.setCenter(mapCenter);
+                //googleMap.panTo(mapCenter);
             },
             getMapCenter: function() {
                 //TODO: handle if center is null

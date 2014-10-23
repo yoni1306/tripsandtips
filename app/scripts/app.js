@@ -46,6 +46,7 @@
 var tripsandtipsApp = angular.module('tripsandtipsApp', [
   'ngRoute',
   'ngResource',
+  'ngAnimate',
   'google-maps'.ns(),
   'tntControllers',
   'tntFilters',
